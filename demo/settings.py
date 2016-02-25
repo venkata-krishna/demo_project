@@ -1,5 +1,5 @@
 """
-Django settings for mysite1 project.
+Django settings for demo project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')h2@j11!n-q@%4@ul01irs*ovxaur_ti75sf6-a_#v0d)t6%#1'
+SECRET_KEY = ')9o2fp#e6)$1hm&#o5lx+4uqyqkz^(6ce)1df@m+n4$8q4j5sj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,7 +36,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'mysite1.urls'
+ROOT_URLCONF = 'demo.urls'
 
-WSGI_APPLICATION = 'mysite1.wsgi.application'
+WSGI_APPLICATION = 'demo.wsgi.application'
 
 
 # Database
