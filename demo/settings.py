@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'login',
+    'demo_strbd',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -48,6 +50,12 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'demo.urls'
+
+#toset the template folder
+TEMPLATE_DIRS=(
+               '/home/aras/demo_project/templates',
+               )
+
 
 WSGI_APPLICATION = 'demo.wsgi.application'
 
